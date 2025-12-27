@@ -20,7 +20,7 @@ def main():
     if n % 2 == 1:
         target = nums[n // 2]
     else:
-        target = nums[n // 2]  # можно взять любой из двух медианных
+        target = nums[n // 2] 
 
     moves = sum(abs(x - target) for x in nums)
 
@@ -31,3 +31,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
